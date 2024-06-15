@@ -1,14 +1,10 @@
 {
 	"name": "paket-pocket",
 	"version": "0.1.0",
-	"main": "src/index.js",
+	"main": "cli.js",
 	"type": "module",
 	"bin": {
 		"create-paket-app": "./cli.js"
-	},
-	"scripts": {
-		"build": "swc src/*.js -d out --config-file .swcrc && rollup --config",
-		"dev": "nodemon"
 	},
 	"keywords": ["web"],
 	"author": "HeNew4",
